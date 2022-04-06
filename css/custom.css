@@ -512,8 +512,9 @@ nav .menu-btn{
 
 .skills img {
 	display: flex;
-	width: 300px;
-	margin-top: 0px;
+    align-items: center;
+	width: 330px;
+	padding-top: 10px;
 }
 
 #skills h1 {
