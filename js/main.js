@@ -2,7 +2,7 @@
 
 $(document).ready(function(){
 
-   /* sticky navbar on scroll script
+   /* sticky navbar on scroll script */
    $(window).scroll(function(){
     if(this.scrollY > 20){
         $('.navbar').addClass("sticky");
@@ -20,7 +20,7 @@ $(document).ready(function(){
 
     
   });
-  */
+  
  
   // slide-up script
   $('.scroll-up-btn').click(function(){

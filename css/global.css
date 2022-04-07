@@ -50,7 +50,7 @@ a {
 }
 
 a:hover {
-	color: var(--primary);
+	color: red;
 }
 
 .title {
@@ -81,7 +81,7 @@ a:hover {
 }
 
 .button-primary:hover {
-	background-color: var(--primary-dark);
+	background-color: var(--primary);
 	border-color: var(--primary-dark);
 	font-family: "Open Sans", sans-serif;
 	color: white;

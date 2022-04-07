@@ -323,7 +323,34 @@ nav .menu-btn{
     content: "curso de teclado";
 }
 
+/* FRASE */
 
+.frase {
+    background: linear-gradient(rgba(0, 0, 0, 0.1) 0%,rgb(0, 0, 0) 99%), url(../assets/frase.jpg) ;
+	background-position: center;
+	background-size: cover;
+	background-position-y: 0px;
+	background-repeat: repeat;
+	background-attachment: fixed;
+    height: 400px;
+
+}
+
+.frase .text {
+    display: flex;
+    height: 400px;
+  
+    align-items: center;
+    text-align: center;
+    
+}
+
+.frase h2 {
+    color: var(--primary-dark);
+    font-weight: 3oo;
+    font-size: 20px;
+    
+}
 
 /* -------------------- */
 
@@ -335,12 +362,13 @@ nav .menu-btn{
 	text-align: justify;
 }
 
+
 #sobre {
 	display: flex;
 	padding: 20px;
 	background-color: white;
 	margin: 0px;
-	
+    height: auto;
 }
 
 #sobre h1, h3 {
@@ -361,12 +389,20 @@ nav .menu-btn{
 }
 
 #servicos {
-	margin-top: 20px;
 	font-family: "Open sans", sans-serif;
-	font-weight: 200;
-	margin-bottom: 30px;
+	font-weight: 400px;
+	padding-top: 30px;
+    padding-bottom: 30px;
 	justify-content: center;
 	align-items: center;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.6) 0%,rgb(0, 0, 0) 99%), url(../assets/fundo1.jpg) ;
+	background-position: center center;
+	background-size: cover;
+	background-position-y: 0px;
+	background-repeat: repeat no-repeat;
+	background-attachment: fixed;
+    
 }
 
 #servicos p {
@@ -425,8 +461,8 @@ nav .menu-btn{
 .setepassos {
 	display: flex;
 	background-color: white;
-	margin-top: 40px;
-	padding: 20px 0 0 0 ;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .setepassos .text-section {
@@ -443,6 +479,8 @@ nav .menu-btn{
 }
 
 /* SERVICOS */
+
+
 
 #servicos .badge {
 	font-weight: 400;
@@ -723,6 +761,7 @@ nav .menu-btn{
   max-height: 20px;
 }
 
+
 #contato .button-area{
 	display: flex;
 	align-items: center;
@@ -730,7 +769,7 @@ nav .menu-btn{
 #contato .button-area button{
 	color: #fff;
 	display: block;
-	/* width: 160px!important; */
+	/*width: 160px!important; */
 	height: 45px;
 	outline: none;
 	font-size: 18px;
@@ -744,9 +783,10 @@ nav .menu-btn{
 	margin-top: 10px;
   }
   #contato .button-area button:hover{
-	color: crimson;
-	background: none;
+	background: rgb(248, 26, 70);
   }
+
+
 
   #contato .list {
       display: flex;
