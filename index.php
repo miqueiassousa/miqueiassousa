@@ -50,6 +50,19 @@
   <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=298720425109776&ev=PageView&noscript=1" /></noscript>
   <!-- End Meta Pixel Code -->
 
+  <!-- Global site tag (gtag.js) - Google Ads -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-597966797"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-597966797');
+  </script>
+
   <title>Miquéias Sousa</title>
 
 </head>
