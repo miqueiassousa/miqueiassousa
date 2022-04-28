@@ -63,6 +63,18 @@
     gtag('config', 'AW-597966797');
   </script>
 
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C802GZ7G0Y"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag('js', new Date());
+
+    gtag('config', 'G-C802GZ7G0Y');
+  </script>
   <title>Miquéias Sousa</title>
 
 </head>
