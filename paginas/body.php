@@ -102,7 +102,7 @@
       <h3 class="titulo text">NOSSOS SERVIÇOS</h3>
 
       <div class="row align-self-center text-center justify-content-center">
-        <div class="col-6 col-lg-4 col-sm-6 col-md-6 mb-0 mt-0 mb-lg-0">
+        <div class="col-6 col-lg-4 col-sm-6 col-md-6 mb-0 mt-4 mb-lg-0">
           <a href="#" class="destaque">
             <div class="mb-2">
               <ion-icon name="brush-outline"></ion-icon>
@@ -112,7 +112,7 @@
           </a>
         </div>
 
-        <div class="col-6 col-lg-4 col-sm-6 col-md-6 mb-lg-0">
+        <div class="col-6 col-lg-4 col-sm-6 col-md-6 mb-1 mt-4 mb-lg-0">
           <a href="#" class="destaque">
             <div class="mb-2">
               <ion-icon name="image-outline"></ion-icon>
@@ -121,10 +121,10 @@
             <p class="mb-0"> Layout e design de páginas online </p>
           </a>
         </div>
-
+  
         <div class="col-6 col-lg-4 col-sm-6 col-md-6 mb-1 mt-4 mb-lg-0">
           <a href="#" class="destaque">
-            <div class="icone mb-2">
+            <div class="mb-2">
               <ion-icon name="code-slash-outline"></ion-icon>
             </div>
             <h4 class="text-uppercase">Programação</h4>

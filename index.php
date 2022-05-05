@@ -88,11 +88,12 @@
     <?php require "paginas/header.php"; ?>
 
     <!-- BODY -->
+    <?php require "paginas/body.php"; ?>
 
   </div> <!-- FIM MENU GERAL -->
 
   <!-- CONTATO -->
-  <?php require "paginas/body.php"; ?>
+  
 
 
   <div id="contato">
