@@ -244,12 +244,12 @@ nav .menu-btn{
 
 /* AFTER E BEFORE */
 
-#sobre .titulo, #servicos .titulo, #setepassos .titulo, #eventos .titulo {
+#sobre .titulo, #servicos .titulo, #setepassos .titulo, #eventos .titulo, #sertanejo .titulo, #gospel .titulo {
 	display: flex;
 	justify-content: center;
 } 
 
-#sobre .titulo, #servicos .titulo, #skills .titulo, #eventos .titulo {
+#sobre .titulo, #servicos .titulo, #skills .titulo, #eventos .titulo, #sertanejo .titulo, #gospel .titulo {
 	position: relative;
     font-size: 30px;
     font-weight: 500;
@@ -259,7 +259,7 @@ nav .menu-btn{
 	
 }
 /* Para Fundo Branco */
-#sobre .titulo::after, #skills .titulo::after, #setepassos .titulo::after, #eventos .titulo::after{
+#sobre .titulo::after, #skills .titulo::after, #setepassos .titulo::after, #eventos .titulo::after, #sertanejo .titulo::after, #gospel .titulo::after{
     position: absolute;
     bottom: -8px;
     left: 50%;
@@ -271,7 +271,7 @@ nav .menu-btn{
 	letter-spacing: 0;
 }
 
-#sobre .titulo::before, #skills .titulo::before, #setepassos .titulo::before, #eventos .titulo::before {
+#sobre .titulo::before, #skills .titulo::before, #setepassos .titulo::before, #eventos .titulo::before, #sertanejo .titulo::before, #gospel .titulo::before {
     content: "";
     position: absolute;
     bottom: 0px;
@@ -325,6 +325,14 @@ nav .menu-btn{
 
 #eventos .titulo::after {
     content: "Casamento";
+}
+
+#sertanejo .titulo::after {
+    content: "Sertanejo";
+}
+
+#gospel .titulo::after {
+    content: "Gospel";
 }
 
 /* FRASE */

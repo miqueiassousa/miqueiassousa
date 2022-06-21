@@ -211,3 +211,39 @@
     </div>
   </div>
 </div>
+
+<!-- GOSPEL  -->
+<div class="setepassos" id="gospel">
+
+  <div class="container">
+
+    <div class="row justify-content-center">
+
+      <h3 class="titulo text-section">Eventos</h3>
+
+    </div>
+    <div class="embed">
+      <iframe class="inframe" src="https://www.youtube.com/embed/iOQIUpUsk0Y"></iframe>
+    </div>
+  </div>
+</div>
+
+<!-- SERTANEJO  -->
+<div class="setepassos" id="sertanejo">
+
+  <div class="container">
+
+    <div class="row justify-content-center">
+
+      <h3 class="titulo text-section">Eventos</h3>
+
+    </div>
+    <div class="embed">
+      <iframe class="inframe" src="https://www.youtube.com/embed/9pAeNwjkXvY"></iframe>
+    </div>
+  </div>
+</div>
+
+
+
+
