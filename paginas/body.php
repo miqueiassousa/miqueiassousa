@@ -173,8 +173,6 @@
   NÃO DEFINIDO -->
 
   <!-- CURSO SETE PASSOS  -->
-
-
   <div class="setepassos" id="setepassos">
 
     <div class="container">
@@ -187,8 +185,6 @@
         <h3 class="titulo text-section">TECH MUSIC</h3>
         <div class="col-md-6 align-self-center  mb-md-0 mb-4 order-md-2 order-2">
 
-
-
           <p class="t-justificado">O Curso Sete Passos Para tocar teclado, é uma oportunidade para as pessoas
             que querem aprender a tocar teclado de um modo simples e objetivo. Trata se de
             um nível básico para quem estar começando ou até mesmo que já tenha um conhecimento
@@ -196,13 +192,25 @@
           </p>
           <a href="https://go.hotmart.com/U61575713U?dp=1" target="_blank" rel="noopener noreferrer"
             class="btn button-primary">Adquirir</a>
-
         </div>
-
-
       </div>
-
-
     </div>
+  </div>
 
+  <!-- VIDEO DE CASAMENTO  -->
+  <div class="setepassos" id="eventos">
+
+    <div class="container">
+
+      <div class="row justify-content-center">
+
+        
+        <h3 class="titulo text-section">Eventos</h3>
+        
+
+        <div class="embed">
+        <iframe class="inframe" src="https://www.youtube.com/embed/H9Zs3ZvYvHE" ></iframe>
+        </div>
+      </div>
+    </div>
   </div>

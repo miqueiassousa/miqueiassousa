@@ -244,12 +244,12 @@ nav .menu-btn{
 
 /* AFTER E BEFORE */
 
-#sobre .titulo, #servicos .titulo, #setepassos .titulo {
+#sobre .titulo, #servicos .titulo, #setepassos .titulo, #eventos .titulo {
 	display: flex;
 	justify-content: center;
 } 
 
-#sobre .titulo, #servicos .titulo, #skills .titulo {
+#sobre .titulo, #servicos .titulo, #skills .titulo, #eventos .titulo {
 	position: relative;
     font-size: 30px;
     font-weight: 500;
@@ -259,7 +259,7 @@ nav .menu-btn{
 	
 }
 /* Para Fundo Branco */
-#sobre .titulo::after, #skills .titulo::after, #setepassos .titulo::after{
+#sobre .titulo::after, #skills .titulo::after, #setepassos .titulo::after, #eventos .titulo::after{
     position: absolute;
     bottom: -8px;
     left: 50%;
@@ -271,7 +271,7 @@ nav .menu-btn{
 	letter-spacing: 0;
 }
 
-#sobre .titulo::before, #skills .titulo::before, #setepassos .titulo::before {
+#sobre .titulo::before, #skills .titulo::before, #setepassos .titulo::before, #eventos .titulo::before {
     content: "";
     position: absolute;
     bottom: 0px;
@@ -321,6 +321,10 @@ nav .menu-btn{
 
 #setepassos .titulo::after {
     content: "curso de teclado";
+}
+
+#eventos .titulo::after {
+    content: "Casamento";
 }
 
 /* FRASE */
@@ -823,11 +827,20 @@ nav .menu-btn{
 }
 
 
+/* Video do Youtube */
 
+.embed {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
 
-
-
-
+.embed .inframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
 
 
 
