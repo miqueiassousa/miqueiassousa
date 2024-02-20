@@ -1,0 +1,858 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Roboto:wght@100;300;400;500&family=Ubuntu:wght@400;500;700&display=swap');
+
+body,
+html {
+	font-family: "Roboto", "Ubuntu";
+	margin: 0px;
+}
+
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.home .max-width{
+	width: 100%;
+	display: flex;
+  }
+
+  .home .max-width .row{
+	margin-right: 0;
+  }
+
+/* custom scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+/* NAVBAR CONFIG */
+
+#header .navbar-collapse {
+	width: auto;
+}
+
+.navbar{
+    position: relative;
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    font-family: 'Ubuntu', sans-serif;
+    transition: all 0.3s ease;
+	opacity: 100%;
+}
+
+/* Barra do Menu suspensa */
+.navbar.sticky{
+    padding: 10px 0;
+    background: white;
+	opacity: 80;
+	display: none;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .logo a span{
+    color: crimson;
+    transition: all 0.3s ease;
+}
+.navbar.sticky .logo a span{
+    color: #fff;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+}
+
+/* Menu */
+.navbar .menu li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 0;
+    transition: color 0.3s ease;
+}
+
+.navbar .list li a {
+	color: rgb(255, 255, 255);
+}
+
+.navbar .list li a:hover {
+	color: var(--primary);
+}
+
+.navbar .menu li a:hover{
+    color: var(--primary);
+}
+.navbar.sticky .menu li a:hover{
+    color: var(--secondary);
+}
+
+.navbar.sticky .list li a:hover{
+    color: var(--secondary);
+}
+
+
+/* menu btn styling */
+nav .menu-btn{
+	display: none;
+	color: #fff;
+    font-size: 23px;
+    cursor: pointer;
+    
+}
+.scroll-up-btn{
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: crimson;
+    right: 0px;
+    bottom: 10px;
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    z-index: 9999;
+    font-size: 30px;
+    border-radius: 6px;
+    border-bottom-width: 2px;
+    cursor: pointer;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+.scroll-up-btn.show{
+    bottom: 30px;
+    opacity: 1;
+    pointer-events: auto;
+}
+.scroll-up-btn:hover{
+    filter: brightness(90%);
+}
+
+
+
+/* HEADER */
+
+#header a:hover  {
+	text-decoration: none;
+	
+}
+
+#header a  {
+	text-decoration: none;
+	padding: 10px;
+}
+#header {
+	width: 100%;
+	background-color: transparent;
+	transition: background ease-out 0.2s;
+	
+}
+
+#header .list {
+ 	display: flex;
+	gap: 20px;
+	font-size: 20px;
+}
+
+
+.menu-geral {
+  	background: linear-gradient(rgba(0, 0, 0, 0.6) 0%,rgb(0, 0, 0) 99%), url(../assets/fundo1.jpg) ;
+	background-position: center;
+	background-size: cover;
+	background-position-y: 0px;
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+
+
+
+/* SLIDER */
+
+#slider .s {
+	color: var(--primary);
+}
+
+#slider h3 {
+	font-size: 16px;
+	color: var(--secondary);
+	font-weight: 100;
+}
+
+#slider img {
+	filter: grayscale(100%);
+  	opacity: 0.2;
+	margin-bottom: 60px;
+}
+#slider .texto-animado {
+	color: #727272;
+}
+#slider .sousa {
+	color: var(--primary);
+}
+
+
+#slider .container-slider {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+#slider h1 {
+	text-transform: uppercase;
+	font-weight: 800;
+	font-size: 90px;
+}
+
+#slider p {
+	text-transform: uppercase;
+	font-family: "Roboto";
+	font-weight: 500;
+	font-size: 15px;
+	color: #817d7d65;
+}
+
+#slider h4 {
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+
+/* SOBRE */
+
+/* AFTER E BEFORE */
+
+#sobre .titulo, #servicos .titulo, #setepassos .titulo, #eventos .titulo, #sertanejo .titulo, #gospel .titulo {
+	display: flex;
+	justify-content: center;
+} 
+
+#sobre .titulo, #servicos .titulo, #skills .titulo, #eventos .titulo, #sertanejo .titulo, #gospel .titulo {
+	position: relative;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+	
+}
+/* Para Fundo Branco */
+#sobre .titulo::after, #skills .titulo::after, #setepassos .titulo::after, #eventos .titulo::after, #sertanejo .titulo::after, #gospel .titulo::after{
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    font-size: 16px;
+    color: black;
+    padding: 0 5px;
+    background: rgb(255, 255, 255);
+    transform: translateX(-50%);
+	letter-spacing: 0;
+}
+
+#sobre .titulo::before, #skills .titulo::before, #setepassos .titulo::before, #eventos .titulo::before, #sertanejo .titulo::before, #gospel .titulo::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 580px;
+    height: 2px;
+    background: rgb(0, 0, 0);
+    transform: translateX(-50%);
+}
+
+/* Para Fundo Preto */
+#servicos .titulo::after{
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    font-size: 16px;
+    color: var(--primary);
+    padding: 0 5px;
+    background: rgb(0, 0, 0);
+    transform: translateX(-50%);
+	letter-spacing: 0;
+}
+
+#servicos .titulo::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 180px;
+    height: 2px;
+    background: rgb(255, 255, 255);
+    transform: translateX(-50%);
+}
+
+#sobre .titulo::after {
+    content: "who i man";
+}
+
+#servicos .titulo::after {
+    content: "what i provide";
+}
+
+#skills .titulo::after {
+    content: "what i know";
+}
+
+
+#setepassos .titulo::after {
+    content: "curso de teclado";
+}
+
+#eventos .titulo::after {
+    content: "Music";
+}
+
+#sertanejo .titulo::after {
+    content: "Sertanejo";
+}
+
+#gospel .titulo::after {
+    content: "Gospel";
+}
+
+/* FRASE */
+
+.frase {
+    background: linear-gradient(rgba(0, 0, 0, 0.1) 0%,rgb(0, 0, 0) 99%), url(../assets/frase.jpg) ;
+	background-position: center;
+	background-size: cover;
+	background-position-y: 0px;
+	background-repeat: repeat;
+	background-attachment: fixed;
+    height: 400px;
+
+}
+
+.frase .text {
+    display: flex;
+    height: 400px;
+  
+    align-items: center;
+    text-align: center;
+    
+}
+
+.frase h2 {
+    color: var(--primary-dark);
+    font-weight: 3oo;
+    font-size: 20px;
+    
+}
+
+/* -------------------- */
+
+#sobre img {
+	width: 440px;
+}
+
+#sobre .text {
+	text-align: justify;
+}
+
+
+#sobre {
+	display: flex;
+	padding: 20px;
+	background-color: white;
+	margin: 0px;
+    height: auto;
+}
+
+#sobre h1, h3 {
+	color: black;
+}
+
+#sobre p {
+	font-size: 19px;
+}
+
+
+
+/* SERVIÇOS */
+
+#servicos ion-icon {
+	font-size: 70px;
+	color: var(--primary);
+}
+
+#servicos {
+	font-family: "Open sans", sans-serif;
+	font-weight: 400px;
+	padding-top: 30px;
+    padding-bottom: 30px;
+	justify-content: center;
+	align-items: center;
+
+    background: linear-gradient(rgba(0, 0, 0, 0.6) 0%,rgb(0, 0, 0) 99%), url(../assets/fundo1.jpg) ;
+	background-position: center center;
+	background-size: cover;
+	background-position-y: 0px;
+	background-repeat: repeat no-repeat;
+	background-attachment: fixed;
+    
+}
+
+#servicos p {
+	color: var(--primary-dark);
+}
+
+#servicos .text {
+	display: flex;
+	color: white;
+	justify-content: center;
+	margin-right: 60px;
+}
+
+#servicos a.destaque {
+	display: block;
+	background: rgb(44, 44, 44);
+	border-radius: 9px;
+	text-align: center;
+	padding: 0px;
+	text-decoration: none;
+	transition: all ease-out 0.2s;
+	width: 330px;
+
+}
+
+#servicos a.destaque:hover {
+	background-color: rgb(66, 65, 65);
+	box-shadow: 0px 0px 10px 0px rgba(0 , 0, 0, 0.12);
+	transform: scale(1.08);
+}
+
+#servicos a.destaque .img-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 200px;
+}
+
+#sevicos a.destaque .img-container img {
+	max-height: 160px;
+}
+
+
+/* SETE PASSOS */
+
+#setepassos .titulo{
+	position: relative;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+.setepassos {
+	display: flex;
+	background-color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.setepassos .text-section {
+	color: black;
+	text-align: justify;
+}
+
+.setepassos h3 {
+    font-size: 20px;
+}
+
+.setepassos p {
+    font-size: 19px;
+}
+
+/* SERVICOS */
+
+
+
+#servicos .badge {
+	font-weight: 400;
+}
+
+#servicos .element-item img {
+	border-radius: 5px;
+	transition: all ease-out 0.2s;
+}
+
+#servicos .element-item img:hover {
+	box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.4);
+}
+
+#servicos .button-group {
+	margin-bottom: 30px;
+}
+
+#servicos .button-group button {
+	background: none;
+	border: none;
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: 700;
+	outline: none;
+}
+
+
+/* Margin a esqueda menos no primeiro item */
+
+#servicos .button-group button + button {
+	margin-left: 30px;
+}
+
+#servicos .button-group button.active {
+	color: white;
+}
+
+/* NÃO DEFINIDO */
+
+.nao-definido {
+	display: flex;
+	height: auto;
+	margin: 0px;
+	padding: 0;
+	background-color: rgb(190, 130, 130);
+}
+
+/* NÃO DEFINIDO */
+
+/* HABILIDADES */
+
+.skills {
+	display: flex;
+	background-color: white;
+	height: auto;
+	padding: 1em 0 0 1em;
+  
+}
+
+.skills .habilidades {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills img {
+	display: flex;
+    align-items: center;
+	width: 330px;
+	padding-top: 10px;
+}
+
+#skills h1 {
+	font-weight: 300;
+	font-size: 30px;
+	letter-spacing: 7px;
+	color: #111;
+	padding: 40px;
+}
+
+
+
+.skills .max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+.skills .titleSkills::after{
+    content: "what i know";
+}
+.skills .skills-content .column{
+    width: calc(50% - 30px);
+}
+
+.skills .column{
+    width: 100%;
+}
+
+.skills .text{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.skills  p{
+    text-align: justify;
+}
+.skills  a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 16px;
+    margin-top: 20px;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+	text-decoration: none;
+}
+.skills  a:hover{
+    color: crimson;
+    background: none;
+}
+.skills .bars{
+    margin-bottom: 15px;
+}
+.skills .info{
+    display: flex;
+    margin-bottom: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills span{
+    font-weight: 500;
+    font-size: 18px;
+}
+.skills .line{
+    height: 5px;
+    width: 80%;
+    background: lightgrey;
+    position: relative;
+}
+.skills .line::before{
+    content: "";
+    position: absolute;
+    height: 80%;
+    left: 0;
+    top: 0;
+    background: var(--primary);
+}
+.skills .html::before{
+    width: 90%;
+}
+.skills .css::before{
+    width: 85%;
+}
+.skills .js::before{
+    width: 80%;
+}
+.skills .php::before{
+    width: 82%;
+}
+.skills .mysql::before{
+    width: 79%;
+}
+
+.skills .porcetagem {
+    display: none;
+}
+
+/* CONTATO */
+
+#contato h3 {
+	color: white;
+}
+
+#contato .list {
+	font-size: 30px;
+}
+
+#contato .t-opaco {
+	margin-bottom: 15px;
+    font-size: 19px;
+}
+
+
+#contato .coluna1 {
+	margin-top: 40px;
+}
+
+#contato .coluna2 {
+	/*display: flex;*/
+	background: linear-gradient(to right, rgba(255, 115, 0, 0.966) 10%, var(--primary) 10%);
+	/*height: 500px;
+	width: 300px;*/	
+}
+
+#contato .coluna3 {
+	margin-left: -230px;
+}
+
+#contato .simbolo {
+	color: white;
+}
+
+#contato .coluna1 p {
+	margin: 0;
+	color: var(--primary);
+	font-size: 19px;
+}
+
+.cont-contato {
+    display: flex;
+}
+
+#contato .form {
+  width: 60%;
+  display: flex;
+}
+
+#contato .form-control,
+#contato .form-control::placeholder {
+  background: none;
+  color: #fff;
+}
+
+#contato ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#contato ul li {
+  display: flex;
+  list-style-type: none;
+  margin-left: 25px;
+}
+
+#contato ul li:first-child {
+  margin-left: 0;
+}
+
+#contato ul li a {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  transition: all ease-out 0.2s;
+}
+
+#contato ul li a:hover {
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+#contato ul li img {
+  max-height: 20px;
+}
+
+
+#contato .button-area{
+	display: flex;
+	align-items: center;
+  }
+#contato .button-area button{
+	color: #fff;
+	display: block;
+	/*width: 160px!important; */
+	height: 45px;
+	outline: none;
+	font-size: 18px;
+	font-weight: 500;
+	border-radius: 6px;
+	cursor: pointer;
+	flex-wrap: nowrap;
+	background: crimson;
+	border: 2px solid crimson;
+	transition: all 0.3s ease;
+	margin-top: 10px;
+  }
+  #contato .button-area button:hover{
+	background: rgb(248, 26, 70);
+  }
+
+
+
+  #contato .list {
+      display: flex;
+      align-items: center;
+  }
+
+
+/* FOOTER */
+
+/* footer section styling */
+.footer{
+    padding: 15px 23px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer span a{
+    color: var(--primary);
+    text-decoration: none;
+}
+.footer span a:hover{
+    text-decoration: underline;
+}
+
+
+.scroll-up-btn{
+	right: 15px;
+	bottom: 15px;
+	height: 38px;
+	width: 35px;
+	font-size: 23px;
+	line-height: 38px;
+}
+
+
+/* Video do Youtube */
+
+.embed {
+    position: relative;
+    width: 100%;
+    height: 100%; 
+}
+
+.embed .inframe {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/*Anterior... 
+
+.embed {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+.embed .inframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+}*/
+
+
+
+
+
+
+
+

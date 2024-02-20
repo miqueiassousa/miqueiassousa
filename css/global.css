@@ -1,0 +1,120 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+
+}
+
+h1, h2 {
+	font-weight: 700;
+	color: aliceblue;
+}
+
+h4 {
+	color: white;
+	font-weight: 500;
+}
+
+h3 {
+	font-weight: 500;
+	font-size: 30px;
+	letter-spacing: 7px;
+}
+
+p {
+	font-family: "Open Sans";
+	font-weight: 400;
+	font-size: 19px;
+}
+
+.t-justificado {
+	text-align: justify;
+}
+
+.t-centro {
+	text-align: center;
+}
+
+.t-opaco {
+	color: var(--dark);
+}
+
+body {
+	background: black;
+}
+
+a {
+	color: white;
+}
+
+a:hover {
+	color: red;
+}
+
+.title {
+	text-transform: uppercase;
+}
+
+.subtitle {
+	color: black;
+	font-weight: 500;
+}
+
+.block {
+	margin-bottom: 120px;
+}
+
+/* BUTTOM */
+.button {
+	text-transform: lowercase;
+	font-weight: 500;
+	padding-left: 1.4rem;
+	padding-right: 1.4rem;	
+}
+
+.button-primary {
+	background-color: rgb(221, 144, 2);
+	border: none;
+	font-family: "Open Sans", sans-serif;
+	color: white;
+}
+
+.button-primary:hover {
+	background-color: var(--primary);
+	border-color: var(--primary-dark);
+	font-family: "Open Sans", sans-serif;
+	color: white;
+}
+
+.button-primary:link:visited {
+	background-color: orange;
+	border-color: var(--primary-dark);
+	font-family: "Open Sans", sans-serif;
+	color: white;
+}
+
+.button-primary-outline {
+	border-color: orange;
+	color: var(--primary1);
+}
+
+.button-primary-outline:hover {
+	background-color: var(--primary-dark);
+	border-color: var(--primary-dark);
+}
+
+.button-primary-outline:visited {
+	background-color: orange;
+	border-color: var(--primary-dark);
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background: var(--primary1);
+}
+
+.sem-link {
+	text-decoration: none;
+}
