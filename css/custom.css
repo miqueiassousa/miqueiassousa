@@ -322,7 +322,7 @@ nav .menu-btn{
 
 
 #setepassos .titulo::after {
-    content: "curso de teclado";
+    content: "store music";
 }
 
 #eventos .titulo::after {
@@ -369,7 +369,7 @@ nav .menu-btn{
 /* -------------------- */
 
 #sobre img {
-	width: 440px;
+	width: 240px;
 }
 
 #sobre .text {
@@ -648,19 +648,27 @@ nav .menu-btn{
     background: var(--primary);
 }
 .skills .html::before{
-    width: 90%;
+    width: 100%;
 }
 .skills .css::before{
-    width: 85%;
+    width: 95%;
 }
 .skills .js::before{
     width: 80%;
 }
 .skills .php::before{
-    width: 82%;
+    width: 90%;
 }
 .skills .mysql::before{
-    width: 79%;
+    width: 85%;
+}
+
+.skills .laravel::before{
+    width: 75%;
+}
+
+.skills .uml::before{
+    width: 95%;
 }
 
 .skills .porcetagem {
